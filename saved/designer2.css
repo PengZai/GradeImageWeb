@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #e2e6ea;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a{
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #000;
+}
+
+.banner-area{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(pic/background1.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+.Upload-area, .Download-area, .Leaderboard-area, .About-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(pic/background2.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.text-part{
+    width: 65%;
+    height: 80%;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Audiowide;
+}
+
+p{
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.Upload-area, .Leaderboard-are{
+    background-image: url(pic/background3.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.Download-area, .About-area{
+    background-image: url(pic/background4.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
